@@ -1,13 +1,13 @@
-# Anime Video Automation Pipeline
+# Comparison Video Automation Pipeline
 
-Sistem otomasi end-to-end untuk membuat video YouTube Anime Comparison (Past vs Present / Height Ranking / Evolution) secara otomatis dari data Wikia, pewarnaan AI, perakitan video MP4, hingga upload otomatis ke YouTube.
+Sistem otomasi end-to-end untuk membuat video YouTube Comparison (Past vs Present / Height Ranking / Scrolling Comparison / Evolution) secara otomatis dari data Wikia, pewarnaan AI, perakitan video MP4, hingga upload otomatis ke YouTube.
 
 ---
 
 ## 📁 Struktur Direktori
 
 ```text
-anime-video-automation/
+comparison-video-automation/
 ├── assets/
 │   ├── audio/              # File musik latar (BGM phonk / anime soundtrack)
 │   ├── fonts/              # Font khusus video (Impact, Bebas Neue, dll)
