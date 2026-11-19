@@ -1,0 +1,26 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large generated video outputs
+output/*.mp4
+output/*.png
+output/*.jpg
+!output/.gitkeep
+
+# Sensitive credentials & tokens
+config/client_secrets.json
+config/youtube_token.json
+
+# Environment files & virtualenvs
+.env
+.venv/
+venv/
+env/
+
+# Editor & OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

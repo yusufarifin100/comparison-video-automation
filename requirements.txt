@@ -1,0 +1,15 @@
+# Video Processing & Generation
+moviepy>=1.0.3
+pillow>=10.0.0
+numpy>=1.24.0
+
+# AI Colorization & Vision
+google-generativeai>=0.8.0
+
+# YouTube Auto-Upload
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+
+# Web & Data Handling
+requests>=2.31.0
