@@ -1,0 +1,52 @@
+{
+  "template_name": "AlienArt Gold Evolution (White Padding)",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "background_color": "#ffffff"
+  },
+  "layout": {
+    "padding_top": 12,
+    "padding_bottom": 12,
+    "padding_left": 12,
+    "padding_right": 12,
+    "card_gap": 12
+  },
+  "card": {
+    "width": 480,
+    "height": 1056,
+    "border_color": "#000000",
+    "border_width": 1
+  },
+  "sections": {
+    "top_image": {
+      "type": "image",
+      "height": 480,
+      "crop": "smart_upper"
+    },
+    "middle_banner": {
+      "type": "banner",
+      "height": 96,
+      "gradient": {
+        "type": "linear-horizontal",
+        "stops": [
+          [0.0, "#AC9B01"],
+          [0.48, "#FFFF04"],
+          [1.0, "#D7C201"]
+        ]
+      },
+      "font": "assets/fonts/BebasNeue-Regular.ttf",
+      "font_size": 68,
+      "text_color": "#000000",
+      "text_transform": "uppercase",
+      "border_color": "#000000",
+      "border_width": 1
+    },
+    "bottom_image": {
+      "type": "image",
+      "height": 480,
+      "crop": "smart_upper"
+    }
+  }
+}
