@@ -1,0 +1,40 @@
+{
+  "id": "single_image_multistats",
+  "name": "AlienArt Single Image + Multi-Stats (Height, Birthday, Hierarchy, Strongest)",
+  "description": "1 Gambar 1:1 di Atas, Pita Nama Emas Mengkilap Font Anton, dan Kotak Informasi / Multi-Stats di Bawah Font Oswald",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "bg": "#ffffff",
+    "padding": 12,
+    "card_gap": 12
+  },
+  "card": {
+    "width": 480,
+    "height": 1056
+  },
+  "blocks": [
+    {
+      "type": "image",
+      "role": "main_img",
+      "height": 480
+    },
+    {
+      "type": "banner",
+      "role": "name",
+      "height": 100,
+      "font": "Anton-Regular.ttf",
+      "font_size": 58,
+      "gradient": "gold"
+    },
+    {
+      "type": "stats_box",
+      "role": "stats",
+      "height": 476,
+      "font": "Oswald-Regular.ttf",
+      "font_size": 34,
+      "bg": "#ffffff",
+      "text_color": "#000000"
+    }
+  ]
+}

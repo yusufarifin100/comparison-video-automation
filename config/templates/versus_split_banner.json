@@ -1,0 +1,44 @@
+{
+  "id": "versus_split_banner",
+  "name": "AlienArt Versus / Relationship (Who Kill Whom / Who Love Who / Battle)",
+  "description": "2 Gambar 1:1 Persegi dengan 2 Pita Bertumpuk di Tengah (Warna Merah/Hitam, Pink, atau Emas/Perak)",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "bg": "#ffffff",
+    "padding": 12,
+    "card_gap": 12
+  },
+  "card": {
+    "width": 480,
+    "height": 1056
+  },
+  "blocks": [
+    {
+      "type": "image",
+      "role": "top_img",
+      "height": 460
+    },
+    {
+      "type": "banner",
+      "role": "label_top",
+      "height": 68,
+      "font": "Oswald-Regular.ttf",
+      "font_size": 38,
+      "theme": "red_or_pink"
+    },
+    {
+      "type": "banner",
+      "role": "label_bottom",
+      "height": 68,
+      "font": "Oswald-Regular.ttf",
+      "font_size": 38,
+      "theme": "black_or_silver"
+    },
+    {
+      "type": "image",
+      "role": "bottom_img",
+      "height": 460
+    }
+  ]
+}

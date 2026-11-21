@@ -1,0 +1,49 @@
+{
+  "id": "manga_cover_tall",
+  "name": "AlienArt Manga Cover / Tall Poster",
+  "description": "1 Gambar Portrait Panjang (Cover Manga / Poster 500x711) + 3 Baris Info Detail di Bawah",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "bg": "#ffffff",
+    "padding": 12,
+    "card_gap": 12
+  },
+  "card": {
+    "width": 480,
+    "height": 1056
+  },
+  "blocks": [
+    {
+      "type": "image",
+      "role": "cover_img",
+      "height": 690
+    },
+    {
+      "type": "banner",
+      "role": "title",
+      "height": 90,
+      "font": "Anton-Regular.ttf",
+      "font_size": 48,
+      "gradient": "gold"
+    },
+    {
+      "type": "banner",
+      "role": "subtitle",
+      "height": 76,
+      "font": "BebasNeue-Regular.ttf",
+      "font_size": 42,
+      "bg": "#000000",
+      "text_color": "#ffffff"
+    },
+    {
+      "type": "stats_box",
+      "role": "release_info",
+      "height": 200,
+      "font": "Anton-Regular.ttf",
+      "font_size": 36,
+      "bg": "#ffffff",
+      "text_color": "#000000"
+    }
+  ]
+}

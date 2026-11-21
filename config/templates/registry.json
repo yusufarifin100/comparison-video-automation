@@ -1,0 +1,171 @@
+{
+  "evolution_2images": {
+    "id": "evolution_2images",
+    "name": "AlienArt Evolution (Past vs Present)",
+    "description": "2 Gambar 1:1 Persegi (Atas & Bawah) dengan 1 Pita Emas Mengkilap di Tengah (Bebas Neue)",
+    "canvas": {
+      "width": 1920,
+      "height": 1080,
+      "bg": "#ffffff",
+      "padding": 12,
+      "card_gap": 12
+    },
+    "card": {
+      "width": 480,
+      "height": 1056
+    },
+    "blocks": [
+      {
+        "type": "image",
+        "role": "top_img",
+        "height": 480
+      },
+      {
+        "type": "banner",
+        "role": "name",
+        "height": 96,
+        "font": "BebasNeue-Regular.ttf",
+        "font_size": 68,
+        "gradient": "gold"
+      },
+      {
+        "type": "image",
+        "role": "bottom_img",
+        "height": 480
+      }
+    ]
+  },
+  "versus_split_banner": {
+    "id": "versus_split_banner",
+    "name": "AlienArt Versus / Relationship (Who Kill Whom / Who Love Who / Battle)",
+    "description": "2 Gambar 1:1 Persegi dengan 2 Pita Bertumpuk di Tengah (Warna Merah/Hitam, Pink, atau Emas/Perak)",
+    "canvas": {
+      "width": 1920,
+      "height": 1080,
+      "bg": "#ffffff",
+      "padding": 12,
+      "card_gap": 12
+    },
+    "card": {
+      "width": 480,
+      "height": 1056
+    },
+    "blocks": [
+      {
+        "type": "image",
+        "role": "top_img",
+        "height": 460
+      },
+      {
+        "type": "banner",
+        "role": "label_top",
+        "height": 68,
+        "font": "Oswald-Regular.ttf",
+        "font_size": 38,
+        "theme": "red_or_pink"
+      },
+      {
+        "type": "banner",
+        "role": "label_bottom",
+        "height": 68,
+        "font": "Oswald-Regular.ttf",
+        "font_size": 38,
+        "theme": "black_or_silver"
+      },
+      {
+        "type": "image",
+        "role": "bottom_img",
+        "height": 460
+      }
+    ]
+  },
+  "single_image_multistats": {
+    "id": "single_image_multistats",
+    "name": "AlienArt Single Image + Multi-Stats (Height, Birthday, Hierarchy, Strongest)",
+    "description": "1 Gambar 1:1 di Atas, Pita Nama Emas Mengkilap Font Anton, dan Kotak Informasi / Multi-Stats di Bawah Font Oswald",
+    "canvas": {
+      "width": 1920,
+      "height": 1080,
+      "bg": "#ffffff",
+      "padding": 12,
+      "card_gap": 12
+    },
+    "card": {
+      "width": 480,
+      "height": 1056
+    },
+    "blocks": [
+      {
+        "type": "image",
+        "role": "main_img",
+        "height": 480
+      },
+      {
+        "type": "banner",
+        "role": "name",
+        "height": 100,
+        "font": "Anton-Regular.ttf",
+        "font_size": 58,
+        "gradient": "gold"
+      },
+      {
+        "type": "stats_box",
+        "role": "stats",
+        "height": 476,
+        "font": "Oswald-Regular.ttf",
+        "font_size": 34,
+        "bg": "#ffffff",
+        "text_color": "#000000"
+      }
+    ]
+  },
+  "manga_cover_tall": {
+    "id": "manga_cover_tall",
+    "name": "AlienArt Manga Cover / Tall Poster",
+    "description": "1 Gambar Portrait Panjang (Cover Manga / Poster 500x711) + 3 Baris Info Detail di Bawah",
+    "canvas": {
+      "width": 1920,
+      "height": 1080,
+      "bg": "#ffffff",
+      "padding": 12,
+      "card_gap": 12
+    },
+    "card": {
+      "width": 480,
+      "height": 1056
+    },
+    "blocks": [
+      {
+        "type": "image",
+        "role": "cover_img",
+        "height": 690
+      },
+      {
+        "type": "banner",
+        "role": "title",
+        "height": 90,
+        "font": "Anton-Regular.ttf",
+        "font_size": 48,
+        "gradient": "gold"
+      },
+      {
+        "type": "banner",
+        "role": "subtitle",
+        "height": 76,
+        "font": "BebasNeue-Regular.ttf",
+        "font_size": 42,
+        "bg": "#000000",
+        "text_color": "#ffffff"
+      },
+      {
+        "type": "stats_box",
+        "role": "release_info",
+        "height": 200,
+        "font": "Anton-Regular.ttf",
+        "font_size": 36,
+        "bg": "#ffffff",
+        "text_color": "#000000"
+      }
+    ]
+  }
+}

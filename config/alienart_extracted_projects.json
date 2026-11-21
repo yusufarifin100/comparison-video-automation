@@ -1,0 +1,1564 @@
+[
+  {
+    "id": "6af26821fb1a2e56fcbc5666",
+    "title": "Strongest Tokyo Revenger",
+    "bg_color": "#ffffff",
+    "itemWidth": "500",
+    "elements": [
+      {
+        "title": "Background",
+        "type": "shape",
+        "top": 0,
+        "height": null,
+        "color": "#ffffff",
+        "gradient": "rgba(0,0,0,1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#ffffff",
+          "gradient": "rgba(0,0,0,1)"
+        }
+      },
+      {
+        "title": "Element",
+        "type": "shape",
+        "top": 565,
+        "height": 111,
+        "color": "#000000",
+        "gradient": "rgba(255,255,255, 1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#000000",
+          "opacity": "100",
+          "gradient": "rgba(255,255,255, 1)",
+          "useOpacity": "false",
+          "repeatingAnimation": "",
+          "repeatDuration": "500"
+        }
+      },
+      {
+        "title": "Title Background",
+        "type": "shape",
+        "top": 569,
+        "height": 103,
+        "color": "#009b35",
+        "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+          "perItemColor": "false",
+          "borderColor": "#000000",
+          "borderWidth": "1"
+        }
+      },
+      {
+        "title": "Highlight Image",
+        "type": "image",
+        "top": 0,
+        "height": 500,
+        "color": null,
+        "gradient": null,
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "perElement": "true",
+          "animationDuration": "500",
+          "movementAnimation": "rightToLeft",
+          "fit": "",
+          "keyframeAnimation": "{\"durationMs\":6438,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Highlight",
+        "type": "text",
+        "top": 509,
+        "height": 61,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Bebas Neue",
+        "fontSize": "60",
+        "values": {
+          "perElement": "true",
+          "color": "#ffffff",
+          "fontFamily": "Bebas Neue",
+          "fontSize": "60",
+          "align": "center",
+          "verticalAlign": "middle",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "lineHeight": "",
+          "opacity": "100",
+          "fontStyle": ""
+        }
+      },
+      {
+        "title": "Title",
+        "type": "text",
+        "top": 594,
+        "height": 80,
+        "color": "#000000",
+        "gradient": null,
+        "font": "Anton",
+        "fontSize": "80",
+        "values": {
+          "perElement": "true",
+          "color": "#000000",
+          "fontFamily": "Anton",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "80",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "useTypingAnimation": "false",
+          "borderColor": "#000000",
+          "borderWidth": null,
+          "fontStyle": "",
+          "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Description",
+        "type": "text",
+        "top": 0,
+        "height": 278,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Oswald",
+        "fontSize": "50",
+        "values": {
+          "perElement": "true",
+          "fontSize": "50",
+          "color": "#ffffff",
+          "opacity": "100",
+          "align": "center",
+          "verticalAlign": "middle",
+          "movementAnimation": "bottomToTop",
+          "fontFamily": "Oswald",
+          "fontStyle": "300",
+          "useTypingAnimation": "false",
+          "borderColor": null,
+          "borderWidth": null,
+          "shadowOffsetX": "2",
+          "shadowOffsetY": "2",
+          "animationDuration": "500",
+          "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:0\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":800},{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:1\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:0\",\"timeMs\":0,\"property\":\"opacity\",\"value\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:1\",\"timeMs\":1000,\"property\":\"opacity\",\"value\":1}],\"trackEasing\":{\"slideIn\":\"easeOut\",\"fadeIn\":\"easeOut\"}}"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6aed009d29543f79d69a2e4f",
+    "title": "Who Kill Whom Tokyo Revenger",
+    "bg_color": "#ffffff",
+    "itemWidth": "500",
+    "elements": [
+      {
+        "title": "Background",
+        "type": "shape",
+        "top": 0,
+        "height": null,
+        "color": "#ffffff",
+        "gradient": "rgba(0,0,0,1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#ffffff",
+          "gradient": "rgba(0,0,0,1)"
+        }
+      },
+      {
+        "title": "Highlight Image",
+        "type": "image",
+        "top": 0,
+        "height": 500,
+        "color": null,
+        "gradient": null,
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "perElement": "true",
+          "animationDuration": "500",
+          "movementAnimation": "rightToLeft",
+          "fit": "",
+          "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Highlight Image 2",
+        "type": "image",
+        "top": 600,
+        "height": 500,
+        "color": null,
+        "gradient": null,
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "perElement": "true",
+          "animationDuration": "500",
+          "movementAnimation": "rightToLeft",
+          "fit": "",
+          "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Title Background 2",
+        "type": "shape",
+        "top": 452,
+        "height": 75,
+        "color": "#009b35",
+        "gradient": "rgb(172, 1, 21)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "rgb(172, 1, 21)",
+          "perItemColor": "false",
+          "borderColor": "#ffffff",
+          "borderWidth": "1"
+        }
+      },
+      {
+        "title": "Title Background",
+        "type": "shape",
+        "top": 529,
+        "height": 75,
+        "color": "#009b35",
+        "gradient": "rgb(0, 0, 0)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "rgb(0, 0, 0)",
+          "perItemColor": "false",
+          "borderColor": "#ffffff",
+          "borderWidth": "1"
+        }
+      },
+      {
+        "title": "Highlight",
+        "type": "text",
+        "top": 461,
+        "height": 61,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Oswald",
+        "fontSize": "60",
+        "values": {
+          "perElement": "true",
+          "color": "#ffffff",
+          "fontFamily": "Oswald",
+          "fontSize": "60",
+          "align": "center",
+          "verticalAlign": "middle",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "lineHeight": "",
+          "opacity": "100",
+          "fontStyle": "500",
+          "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Highlight 3",
+        "type": "text",
+        "top": 539,
+        "height": 61,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Oswald",
+        "fontSize": "60",
+        "values": {
+          "text": "Text",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "60",
+          "perElement": "true",
+          "color": "#ffffff",
+          "fontFamily": "Oswald",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "lineHeight": "",
+          "opacity": "100",
+          "fontStyle": "500",
+          "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6aecf8c029543f79d695391b",
+    "title": "Tokyo Revenger Hierarchy Last Series",
+    "bg_color": "#ffffff",
+    "itemWidth": "500",
+    "elements": [
+      {
+        "title": "Background",
+        "type": "shape",
+        "top": 0,
+        "height": null,
+        "color": "#ffffff",
+        "gradient": "rgba(0,0,0,1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#ffffff",
+          "gradient": "rgba(0,0,0,1)"
+        }
+      },
+      {
+        "title": "Element",
+        "type": "shape",
+        "top": 499,
+        "height": 111,
+        "color": "#000000",
+        "gradient": "rgba(255,255,255, 1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#000000",
+          "opacity": "100",
+          "gradient": "rgba(255,255,255, 1)",
+          "useOpacity": "false",
+          "repeatingAnimation": "",
+          "repeatDuration": "500",
+          "keyframeAnimation": "{\"durationMs\":10818,\"keyframes\":[]}"
+        }
+      },
+      {
+        "title": "Title Background",
+        "type": "shape",
+        "top": 502,
+        "height": 105,
+        "color": "#009b35",
+        "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+          "perItemColor": "false",
+          "borderColor": "#000000",
+          "borderWidth": "1"
+        }
+      },
+      {
+        "title": "Highlight Image",
+        "type": "image",
+        "top": 0,
+        "height": 500,
+        "color": null,
+        "gradient": null,
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "perElement": "true",
+          "animationDuration": "500",
+          "movementAnimation": "rightToLeft",
+          "fit": "",
+          "keyframeAnimation": "{\"durationMs\":6438,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Title",
+        "type": "text",
+        "top": 522,
+        "height": 80,
+        "color": "#000000",
+        "gradient": null,
+        "font": "Anton",
+        "fontSize": "80",
+        "values": {
+          "perElement": "true",
+          "color": "#000000",
+          "fontFamily": "Anton",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "80",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "useTypingAnimation": "false",
+          "borderColor": "#000000",
+          "borderWidth": null,
+          "fontStyle": "",
+          "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Description",
+        "type": "text",
+        "top": 0,
+        "height": 312,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Oswald",
+        "fontSize": "90",
+        "values": {
+          "perElement": "true",
+          "fontSize": "90",
+          "color": "#ffffff",
+          "opacity": "100",
+          "align": "center",
+          "verticalAlign": "middle",
+          "movementAnimation": "bottomToTop",
+          "fontFamily": "Oswald",
+          "fontStyle": "400",
+          "useTypingAnimation": "false",
+          "borderColor": null,
+          "borderWidth": null,
+          "shadowOffsetX": "2",
+          "shadowOffsetY": "2",
+          "animationDuration": "500",
+          "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:0\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":800},{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:1\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:0\",\"timeMs\":0,\"property\":\"opacity\",\"value\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:1\",\"timeMs\":1000,\"property\":\"opacity\",\"value\":1}],\"trackEasing\":{\"slideIn\":\"easeOut\",\"fadeIn\":\"easeOut\"}}",
+          "fit": "false"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6ae71dd115f2e50af26aee9b",
+    "title": "Battle Tokyo Revenger S4 Until End",
+    "bg_color": "#ffffff",
+    "itemWidth": "500",
+    "elements": [
+      {
+        "title": "Background",
+        "type": "shape",
+        "top": 0,
+        "height": null,
+        "color": "#ffffff",
+        "gradient": "rgba(0,0,0,1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#ffffff",
+          "gradient": "rgba(0,0,0,1)"
+        }
+      },
+      {
+        "title": "Highlight Image",
+        "type": "image",
+        "top": 0,
+        "height": 500,
+        "color": null,
+        "gradient": null,
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "perElement": "true",
+          "animationDuration": "500",
+          "movementAnimation": "rightToLeft",
+          "fit": "",
+          "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Highlight Image 2",
+        "type": "image",
+        "top": 600,
+        "height": 500,
+        "color": null,
+        "gradient": null,
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "perElement": "true",
+          "animationDuration": "500",
+          "movementAnimation": "rightToLeft",
+          "fit": "",
+          "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Title Background 2",
+        "type": "shape",
+        "top": 452,
+        "height": 75,
+        "color": "#009b35",
+        "gradient": "linear-gradient(90deg, rgba(172, 155, 1, 1) 0%, rgba(255, 255, 4, 1) 48%, rgba(172, 155, 1, 1) 99%)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "linear-gradient(90deg, rgba(172, 155, 1, 1) 0%, rgba(255, 255, 4, 1) 48%, rgba(172, 155, 1, 1) 99%)",
+          "perItemColor": "false",
+          "borderColor": "#000000",
+          "borderWidth": "1"
+        }
+      },
+      {
+        "title": "Title Background",
+        "type": "shape",
+        "top": 529,
+        "height": 75,
+        "color": "#009b35",
+        "gradient": "linear-gradient(90deg, rgba(127, 127, 127, 1) 0%, rgba(255, 255, 255, 1) 48%, rgba(127, 127, 127, 1) 100%)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "linear-gradient(90deg, rgba(127, 127, 127, 1) 0%, rgba(255, 255, 255, 1) 48%, rgba(127, 127, 127, 1) 100%)",
+          "perItemColor": "false",
+          "borderColor": "#000000",
+          "borderWidth": "1"
+        }
+      },
+      {
+        "title": "Highlight",
+        "type": "text",
+        "top": 465,
+        "height": 61,
+        "color": "#000000",
+        "gradient": null,
+        "font": "Oswald",
+        "fontSize": "70",
+        "values": {
+          "perElement": "true",
+          "color": "#000000",
+          "fontFamily": "Oswald",
+          "fontSize": "70",
+          "align": "center",
+          "verticalAlign": "middle",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "lineHeight": "",
+          "opacity": "100",
+          "fontStyle": "500",
+          "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Highlight 3",
+        "type": "text",
+        "top": 537,
+        "height": 61,
+        "color": "#010101",
+        "gradient": null,
+        "font": "Oswald",
+        "fontSize": "70",
+        "values": {
+          "text": "Text",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "70",
+          "perElement": "true",
+          "color": "#010101",
+          "fontFamily": "Oswald",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "lineHeight": "",
+          "opacity": "100",
+          "fontStyle": "500",
+          "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Title Background 4",
+        "type": "shape",
+        "top": 981,
+        "height": 75,
+        "color": "#009b35",
+        "gradient": "linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%)",
+          "perItemColor": "true",
+          "borderColor": null,
+          "borderWidth": null,
+          "keyframeAnimation": "{\"durationMs\":1000,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-3840,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":400,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Title Background 3",
+        "type": "shape",
+        "top": 0,
+        "height": 75,
+        "color": "#009b35",
+        "gradient": "linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%)",
+          "perItemColor": "true",
+          "borderColor": "#000000",
+          "borderWidth": "1",
+          "keyframeAnimation": "{\"durationMs\":1000,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-3840,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":400,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Highlight 4",
+        "type": "text",
+        "top": 8,
+        "height": 68,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Bebas Neue",
+        "fontSize": "50",
+        "values": {
+          "text": "Text",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "50",
+          "perElement": "true",
+          "color": "#ffffff",
+          "fontFamily": "Bebas Neue",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "lineHeight": "",
+          "opacity": "100",
+          "fontStyle": "",
+          "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Highlight 5",
+        "type": "text",
+        "top": 994,
+        "height": 60,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Bebas Neue",
+        "fontSize": "50",
+        "values": {
+          "text": "Text",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "50",
+          "perElement": "true",
+          "color": "#ffffff",
+          "fontFamily": "Bebas Neue",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "lineHeight": "",
+          "opacity": "100",
+          "fontStyle": "",
+          "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6aeb0ec0584440b52eacc1ba",
+    "title": "Who Love Who Tokyo Revenger",
+    "bg_color": "#ffffff",
+    "itemWidth": "500",
+    "elements": [
+      {
+        "title": "Background",
+        "type": "shape",
+        "top": 0,
+        "height": null,
+        "color": "#ffffff",
+        "gradient": "rgba(0,0,0,1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#ffffff",
+          "gradient": "rgba(0,0,0,1)"
+        }
+      },
+      {
+        "title": "Highlight Image",
+        "type": "image",
+        "top": 0,
+        "height": 500,
+        "color": null,
+        "gradient": null,
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "perElement": "true",
+          "animationDuration": "500",
+          "movementAnimation": "rightToLeft",
+          "fit": "",
+          "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Highlight Image 2",
+        "type": "image",
+        "top": 600,
+        "height": 500,
+        "color": null,
+        "gradient": null,
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "perElement": "true",
+          "animationDuration": "500",
+          "movementAnimation": "rightToLeft",
+          "fit": "",
+          "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Title Background 2",
+        "type": "shape",
+        "top": 452,
+        "height": 75,
+        "color": "#009b35",
+        "gradient": "linear-gradient(90deg, rgba(242, 213, 242, 1) 0%, rgba(204, 146, 204, 1) 49%, rgba(242, 213, 242, 1) 100%)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "linear-gradient(90deg, rgba(242, 213, 242, 1) 0%, rgba(204, 146, 204, 1) 49%, rgba(242, 213, 242, 1) 100%)",
+          "perItemColor": "false",
+          "borderColor": "#000000",
+          "borderWidth": "1"
+        }
+      },
+      {
+        "title": "Title Background",
+        "type": "shape",
+        "top": 529,
+        "height": 75,
+        "color": "#009b35",
+        "gradient": "linear-gradient(90deg, rgba(204, 146, 204, 1) 0%, rgba(240, 217, 240, 1) 48%, rgba(204, 146, 204, 1) 100%)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "linear-gradient(90deg, rgba(204, 146, 204, 1) 0%, rgba(240, 217, 240, 1) 48%, rgba(204, 146, 204, 1) 100%)",
+          "perItemColor": "false",
+          "borderColor": "#000000",
+          "borderWidth": "1"
+        }
+      },
+      {
+        "title": "Highlight",
+        "type": "text",
+        "top": 465,
+        "height": 61,
+        "color": "#000000",
+        "gradient": null,
+        "font": "Bebas Neue",
+        "fontSize": "70",
+        "values": {
+          "perElement": "true",
+          "color": "#000000",
+          "fontFamily": "Bebas Neue",
+          "fontSize": "70",
+          "align": "center",
+          "verticalAlign": "middle",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "lineHeight": "",
+          "opacity": "100",
+          "fontStyle": "",
+          "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Highlight 3",
+        "type": "text",
+        "top": 545,
+        "height": 61,
+        "color": "#010101",
+        "gradient": null,
+        "font": "Bebas Neue",
+        "fontSize": "70",
+        "values": {
+          "text": "Text",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "70",
+          "perElement": "true",
+          "color": "#010101",
+          "fontFamily": "Bebas Neue",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "lineHeight": "",
+          "opacity": "100",
+          "fontStyle": "",
+          "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6ae40ac39fb324834076a1c0",
+    "title": "Evo Nacht Black Clover ",
+    "bg_color": "#ffffff",
+    "itemWidth": "500",
+    "elements": [
+      {
+        "title": "Background",
+        "type": "shape",
+        "top": 0,
+        "height": null,
+        "color": "#ffffff",
+        "gradient": "rgba(0,0,0,1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#ffffff",
+          "gradient": "rgba(0,0,0,1)"
+        }
+      },
+      {
+        "title": "Element",
+        "type": "shape",
+        "top": 499,
+        "height": 111,
+        "color": "#000000",
+        "gradient": "rgba(255,255,255, 1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#000000",
+          "opacity": "100",
+          "gradient": "rgba(255,255,255, 1)",
+          "useOpacity": "false",
+          "repeatingAnimation": "",
+          "repeatDuration": "500",
+          "keyframeAnimation": "{\"durationMs\":10818,\"keyframes\":[]}"
+        }
+      },
+      {
+        "title": "Title Background",
+        "type": "shape",
+        "top": 502,
+        "height": 105,
+        "color": "#009b35",
+        "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+          "perItemColor": "false",
+          "borderColor": "#000000",
+          "borderWidth": "1"
+        }
+      },
+      {
+        "title": "Highlight Image",
+        "type": "image",
+        "top": 0,
+        "height": 500,
+        "color": null,
+        "gradient": null,
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "perElement": "true",
+          "animationDuration": "500",
+          "movementAnimation": "rightToLeft",
+          "fit": "",
+          "keyframeAnimation": "{\"durationMs\":6438,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Title",
+        "type": "text",
+        "top": 522,
+        "height": 80,
+        "color": "#000000",
+        "gradient": null,
+        "font": "Anton",
+        "fontSize": "80",
+        "values": {
+          "perElement": "true",
+          "color": "#000000",
+          "fontFamily": "Anton",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "80",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "useTypingAnimation": "false",
+          "borderColor": "#000000",
+          "borderWidth": null,
+          "fontStyle": "",
+          "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Description",
+        "type": "text",
+        "top": 0,
+        "height": 334,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Oswald",
+        "fontSize": "40",
+        "values": {
+          "perElement": "true",
+          "fontSize": "40",
+          "color": "#ffffff",
+          "opacity": "100",
+          "align": "center",
+          "verticalAlign": "middle",
+          "movementAnimation": "bottomToTop",
+          "fontFamily": "Oswald",
+          "fontStyle": "400",
+          "useTypingAnimation": "false",
+          "borderColor": null,
+          "borderWidth": null,
+          "shadowOffsetX": "2",
+          "shadowOffsetY": "2",
+          "animationDuration": "500",
+          "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:0\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":800},{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:1\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:0\",\"timeMs\":0,\"property\":\"opacity\",\"value\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:1\",\"timeMs\":1000,\"property\":\"opacity\",\"value\":1}],\"trackEasing\":{\"slideIn\":\"easeOut\",\"fadeIn\":\"easeOut\"}}"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6ad9c0211107b1191fd52a47",
+    "title": "Strongest Bleach All",
+    "bg_color": "#ffffff",
+    "itemWidth": "500",
+    "elements": [
+      {
+        "title": "Background",
+        "type": "shape",
+        "top": 0,
+        "height": null,
+        "color": "#ffffff",
+        "gradient": "rgba(0,0,0,1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#ffffff",
+          "gradient": "rgba(0,0,0,1)"
+        }
+      },
+      {
+        "title": "Element",
+        "type": "shape",
+        "top": 565,
+        "height": 491,
+        "color": "#000000",
+        "gradient": "rgb(0, 0, 0)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#000000",
+          "opacity": "100",
+          "gradient": "rgb(0, 0, 0)",
+          "useOpacity": "false",
+          "repeatingAnimation": "",
+          "repeatDuration": "500",
+          "keyframeAnimation": "{\"durationMs\":7202,\"keyframes\":[]}",
+          "borderColor": null,
+          "borderWidth": null
+        }
+      },
+      {
+        "title": "Title Background",
+        "type": "shape",
+        "top": 569,
+        "height": 103,
+        "color": "#009b35",
+        "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+          "perItemColor": "false",
+          "borderColor": "#000000",
+          "borderWidth": "1"
+        }
+      },
+      {
+        "title": "Highlight Image",
+        "type": "image",
+        "top": 0,
+        "height": 500,
+        "color": null,
+        "gradient": null,
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "perElement": "true",
+          "animationDuration": "500",
+          "movementAnimation": "rightToLeft",
+          "fit": "",
+          "keyframeAnimation": "{\"durationMs\":6438,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Highlight",
+        "type": "text",
+        "top": 509,
+        "height": 61,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Bebas Neue",
+        "fontSize": "60",
+        "values": {
+          "perElement": "true",
+          "color": "#ffffff",
+          "fontFamily": "Bebas Neue",
+          "fontSize": "60",
+          "align": "center",
+          "verticalAlign": "middle",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "lineHeight": "",
+          "opacity": "100",
+          "fontStyle": ""
+        }
+      },
+      {
+        "title": "Title",
+        "type": "text",
+        "top": 594,
+        "height": 80,
+        "color": "#000000",
+        "gradient": null,
+        "font": "Anton",
+        "fontSize": "80",
+        "values": {
+          "perElement": "true",
+          "color": "#000000",
+          "fontFamily": "Anton",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "80",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "useTypingAnimation": "false",
+          "borderColor": "#000000",
+          "borderWidth": null,
+          "fontStyle": "",
+          "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Description",
+        "type": "text",
+        "top": 0,
+        "height": 222,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Oswald",
+        "fontSize": "150",
+        "values": {
+          "perElement": "true",
+          "fontSize": "150",
+          "color": "#ffffff",
+          "opacity": "100",
+          "align": "center",
+          "verticalAlign": "middle",
+          "movementAnimation": "bottomToTop",
+          "fontFamily": "Oswald",
+          "fontStyle": "400",
+          "useTypingAnimation": "false",
+          "borderColor": "#000000",
+          "borderWidth": "1",
+          "shadowOffsetX": "2",
+          "shadowOffsetY": "2",
+          "animationDuration": "500",
+          "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:0\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":800},{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:1\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:0\",\"timeMs\":0,\"property\":\"opacity\",\"value\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:1\",\"timeMs\":1000,\"property\":\"opacity\",\"value\":1}],\"trackEasing\":{\"slideIn\":\"easeOut\",\"fadeIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Description 1",
+        "type": "text",
+        "top": 0,
+        "height": 184,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Oswald",
+        "fontSize": "80",
+        "values": {
+          "text": "rank",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "80",
+          "perElement": "false",
+          "color": "#ffffff",
+          "opacity": "100",
+          "movementAnimation": "bottomToTop",
+          "fontFamily": "Oswald",
+          "fontStyle": "400",
+          "useTypingAnimation": "false",
+          "borderColor": "#000000",
+          "borderWidth": "1",
+          "shadowOffsetX": "2",
+          "shadowOffsetY": "2",
+          "animationDuration": "500",
+          "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:0\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":800},{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:1\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:0\",\"timeMs\":0,\"property\":\"opacity\",\"value\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:1\",\"timeMs\":1000,\"property\":\"opacity\",\"value\":1}],\"trackEasing\":{\"slideIn\":\"easeOut\",\"fadeIn\":\"easeOut\"}}"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6acf358d2a7baf2aee0e40b1",
+    "title": "Height Black Clover New",
+    "bg_color": "#ffffff",
+    "itemWidth": "500",
+    "elements": [
+      {
+        "title": "Background",
+        "type": "shape",
+        "top": 0,
+        "height": null,
+        "color": "#ffffff",
+        "gradient": "rgba(0,0,0,1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#ffffff",
+          "gradient": "rgba(0,0,0,1)"
+        }
+      },
+      {
+        "title": "Element",
+        "type": "shape",
+        "top": 499,
+        "height": 111,
+        "color": "#000000",
+        "gradient": "rgba(255,255,255, 1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#000000",
+          "opacity": "100",
+          "gradient": "rgba(255,255,255, 1)",
+          "useOpacity": "false",
+          "repeatingAnimation": "",
+          "repeatDuration": "500",
+          "keyframeAnimation": "{\"durationMs\":10818,\"keyframes\":[]}"
+        }
+      },
+      {
+        "title": "Title Background",
+        "type": "shape",
+        "top": 502,
+        "height": 105,
+        "color": "#009b35",
+        "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+          "perItemColor": "false",
+          "borderColor": "#000000",
+          "borderWidth": "1"
+        }
+      },
+      {
+        "title": "Highlight Image",
+        "type": "image",
+        "top": 0,
+        "height": 500,
+        "color": null,
+        "gradient": null,
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "perElement": "true",
+          "animationDuration": "500",
+          "movementAnimation": "rightToLeft",
+          "fit": "",
+          "keyframeAnimation": "{\"durationMs\":6438,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Title",
+        "type": "text",
+        "top": 522,
+        "height": 80,
+        "color": "#000000",
+        "gradient": null,
+        "font": "Anton",
+        "fontSize": "80",
+        "values": {
+          "perElement": "true",
+          "color": "#000000",
+          "fontFamily": "Anton",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "80",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "useTypingAnimation": "false",
+          "borderColor": "#000000",
+          "borderWidth": null,
+          "fontStyle": "",
+          "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Description",
+        "type": "text",
+        "top": 0,
+        "height": 165,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Oswald",
+        "fontSize": "150",
+        "values": {
+          "perElement": "true",
+          "fontSize": "150",
+          "color": "#ffffff",
+          "opacity": "100",
+          "align": "center",
+          "verticalAlign": "middle",
+          "movementAnimation": "bottomToTop",
+          "fontFamily": "Oswald",
+          "fontStyle": "400",
+          "useTypingAnimation": "false",
+          "borderColor": null,
+          "borderWidth": null,
+          "shadowOffsetX": "2",
+          "shadowOffsetY": "2",
+          "animationDuration": "500",
+          "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:0\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":800},{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:1\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:0\",\"timeMs\":0,\"property\":\"opacity\",\"value\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:1\",\"timeMs\":1000,\"property\":\"opacity\",\"value\":1}],\"trackEasing\":{\"slideIn\":\"easeOut\",\"fadeIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Description 1",
+        "type": "text",
+        "top": 0,
+        "height": 159,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Oswald",
+        "fontSize": "80",
+        "values": {
+          "text": "cm",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "80",
+          "perElement": "false",
+          "color": "#ffffff",
+          "opacity": "100",
+          "movementAnimation": "bottomToTop",
+          "fontFamily": "Oswald",
+          "fontStyle": "400",
+          "useTypingAnimation": "false",
+          "borderColor": null,
+          "borderWidth": null,
+          "shadowOffsetX": "2",
+          "shadowOffsetY": "2",
+          "animationDuration": "500",
+          "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:0\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":800},{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:1\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:0\",\"timeMs\":0,\"property\":\"opacity\",\"value\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:1\",\"timeMs\":1000,\"property\":\"opacity\",\"value\":1}],\"trackEasing\":{\"slideIn\":\"easeOut\",\"fadeIn\":\"easeOut\"}}",
+          "fit": "true"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6abe2013c9e292c751eff877",
+    "title": "Manga Cover Black Clover",
+    "bg_color": "#ffffff",
+    "itemWidth": "500",
+    "elements": [
+      {
+        "title": "Background",
+        "type": "shape",
+        "top": 0,
+        "height": null,
+        "color": "#ffffff",
+        "gradient": "rgba(0,0,0,1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#ffffff",
+          "gradient": "rgba(0,0,0,1)"
+        }
+      },
+      {
+        "title": "Element",
+        "type": "shape",
+        "top": 711,
+        "height": 172,
+        "color": "#000000",
+        "gradient": "rgba(255,255,255, 1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#000000",
+          "opacity": "100",
+          "gradient": "rgba(255,255,255, 1)",
+          "useOpacity": "false",
+          "repeatingAnimation": "",
+          "repeatDuration": "500",
+          "keyframeAnimation": "{\"durationMs\":9140,\"keyframes\":[]}"
+        }
+      },
+      {
+        "title": "Title Background",
+        "type": "shape",
+        "top": 714,
+        "height": 91,
+        "color": "#009b35",
+        "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+          "perItemColor": "false",
+          "borderColor": "#000000",
+          "borderWidth": "1"
+        }
+      },
+      {
+        "title": "Highlight Image",
+        "type": "image",
+        "top": 0,
+        "height": 711,
+        "color": null,
+        "gradient": null,
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "perElement": "true",
+          "animationDuration": "500",
+          "movementAnimation": "rightToLeft",
+          "fit": "",
+          "keyframeAnimation": "{\"durationMs\":9140,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Highlight",
+        "type": "text",
+        "top": 817,
+        "height": 61,
+        "color": "#000000",
+        "gradient": null,
+        "font": "Bebas Neue",
+        "fontSize": "60",
+        "values": {
+          "perElement": "true",
+          "color": "#000000",
+          "fontFamily": "Bebas Neue",
+          "fontSize": "60",
+          "align": "center",
+          "verticalAlign": "middle",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "lineHeight": "",
+          "opacity": "100",
+          "fontStyle": "",
+          "keyframeAnimation": "{\"durationMs\":9140,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Title",
+        "type": "text",
+        "top": 730,
+        "height": 80,
+        "color": "#000000",
+        "gradient": null,
+        "font": "Anton",
+        "fontSize": "70",
+        "values": {
+          "perElement": "true",
+          "color": "#000000",
+          "fontFamily": "Anton",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "70",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "useTypingAnimation": "false",
+          "borderColor": "#000000",
+          "borderWidth": null,
+          "fontStyle": "",
+          "keyframeAnimation": "{\"durationMs\":9140,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Description",
+        "type": "text",
+        "top": 901,
+        "height": 80,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Anton",
+        "fontSize": "60",
+        "values": {
+          "text": "Text",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "60",
+          "perElement": "true",
+          "color": "#ffffff",
+          "fontFamily": "Anton",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "useTypingAnimation": "false",
+          "borderColor": "#000000",
+          "borderWidth": null,
+          "fontStyle": "",
+          "keyframeAnimation": "{\"durationMs\":9140,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6ac59c129e3a114181ed7075",
+    "title": "Birtdate Tokyo Revenger",
+    "bg_color": "#ffffff",
+    "itemWidth": "500",
+    "elements": [
+      {
+        "title": "Background",
+        "type": "shape",
+        "top": 0,
+        "height": null,
+        "color": "#ffffff",
+        "gradient": "rgba(0,0,0,1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#ffffff",
+          "gradient": "rgba(0,0,0,1)"
+        }
+      },
+      {
+        "title": "Element",
+        "type": "shape",
+        "top": 499,
+        "height": 111,
+        "color": "#000000",
+        "gradient": "rgba(255,255,255, 1)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#000000",
+          "opacity": "100",
+          "gradient": "rgba(255,255,255, 1)",
+          "useOpacity": "false",
+          "repeatingAnimation": "",
+          "repeatDuration": "500",
+          "keyframeAnimation": "{\"durationMs\":10818,\"keyframes\":[]}"
+        }
+      },
+      {
+        "title": "Title Background",
+        "type": "shape",
+        "top": 502,
+        "height": 105,
+        "color": "#009b35",
+        "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "color": "#009b35",
+          "opacity": "100",
+          "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+          "perItemColor": "false",
+          "borderColor": "#000000",
+          "borderWidth": "1"
+        }
+      },
+      {
+        "title": "Highlight Image",
+        "type": "image",
+        "top": 0,
+        "height": 500,
+        "color": null,
+        "gradient": null,
+        "font": null,
+        "fontSize": null,
+        "values": {
+          "perElement": "true",
+          "animationDuration": "500",
+          "movementAnimation": "rightToLeft",
+          "fit": "",
+          "keyframeAnimation": "{\"durationMs\":6438,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Title",
+        "type": "text",
+        "top": 522,
+        "height": 80,
+        "color": "#000000",
+        "gradient": null,
+        "font": "Anton",
+        "fontSize": "80",
+        "values": {
+          "perElement": "true",
+          "color": "#000000",
+          "fontFamily": "Anton",
+          "align": "center",
+          "verticalAlign": "middle",
+          "fontSize": "80",
+          "animationDuration": "500",
+          "movementAnimation": "leftToRight",
+          "fit": "true",
+          "useTypingAnimation": "false",
+          "borderColor": "#000000",
+          "borderWidth": null,
+          "fontStyle": "",
+          "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+        }
+      },
+      {
+        "title": "Description",
+        "type": "text",
+        "top": 0,
+        "height": 360,
+        "color": "#ffffff",
+        "gradient": null,
+        "font": "Oswald",
+        "fontSize": "100",
+        "values": {
+          "perElement": "true",
+          "fontSize": "100",
+          "color": "#ffffff",
+          "opacity": "100",
+          "align": "center",
+          "verticalAlign": "middle",
+          "movementAnimation": "bottomToTop",
+          "fontFamily": "Oswald",
+          "fontStyle": "400",
+          "useTypingAnimation": "false",
+          "borderColor": null,
+          "borderWidth": null,
+          "shadowOffsetX": "2",
+          "shadowOffsetY": "2",
+          "animationDuration": "500",
+          "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:0\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":800},{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:1\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:0\",\"timeMs\":0,\"property\":\"opacity\",\"value\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:1\",\"timeMs\":1000,\"property\":\"opacity\",\"value\":1}],\"trackEasing\":{\"slideIn\":\"easeOut\",\"fadeIn\":\"easeOut\"}}"
+        }
+      }
+    ]
+  }
+]
