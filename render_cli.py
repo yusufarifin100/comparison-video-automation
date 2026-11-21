@@ -156,7 +156,7 @@ def render_card_evolution(char_data, project_images_dir):
 # ==========================================================
 # 2. RENDER KARTU: HEIGHT COMPARISON (TEMPLATE_HEIGHT.JSON)
 # Persis AlienArt: Foto Atas + Pita Emas Anton + Kotak Bawah Hitam Pekat
-# Angka Besar Putih (Oswald 140) + "cm" Putih (Oswald 75)
+# Teks Sejajar 1 Baris: "174 cm" Putih Bold Font Oswald (96pt)
 # ==========================================================
 def render_card_height(char_data, project_images_dir):
     card = Image.new("RGB", (CARD_W, CARD_H), (0, 0, 0)) # Background Kartu Hitam Pekat
@@ -170,7 +170,7 @@ def render_card_height(char_data, project_images_dir):
     banner = create_gold_banner(CARD_W, 105)
     card.paste(banner, (0, 480))
 
-    # Name in Anton
+    # Name in Anton (56pt auto-fit)
     font_name = ImageFont.truetype(FONT_ANTON, 56) if os.path.exists(FONT_ANTON) else ImageFont.load_default()
     name = str(char_data.get("name", "UNKNOWN")).strip().upper()
     bbox = font_name.getbbox(name)
@@ -187,39 +187,30 @@ def render_card_height(char_data, project_images_dir):
     draw.line([(0, 480), (CARD_W, 480)], fill=(0, 0, 0), width=1)
     draw.line([(0, 480 + 105), (CARD_W, 480 + 105)], fill=(0, 0, 0), width=1)
 
-    # 3. Bottom Area: Hitam Pekat (y: 585 to 1056)
+    # 3. Bottom Area: Hitam Pekat (y: 585 to 1056 = 471px)
     draw.rectangle([(0, 585), (CARD_W, CARD_H)], fill=(0, 0, 0))
 
-    # Parse nilai tinggi badan (misal: "174 cm" -> num: "174", unit: "cm")
-    raw_val = str(char_data.get("val", "0 cm")).strip()
-    m = re.search(r'(\d+)\s*(.*)', raw_val)
-    if m:
-        num_str = m.group(1)
-        unit_str = m.group(2) if m.group(2) else "cm"
-    else:
-        num_str = raw_val
-        unit_str = ""
+    # Teks Sejajar 1 Baris: "174 cm" (Font Oswald 96)
+    val_str = str(char_data.get("val", "0 cm")).strip()
+    font_size = 96
+    font_stat = ImageFont.truetype(FONT_OSWALD, font_size) if os.path.exists(FONT_OSWALD) else ImageFont.load_default()
+    s_bbox = font_stat.getbbox(val_str)
+    sw = s_bbox[2] - s_bbox[0]
+    max_stat_w = CARD_W - 40
+    if sw > max_stat_w:
+        font_size = max(36, int(font_size * (max_stat_w / sw)))
+        font_stat = ImageFont.truetype(FONT_OSWALD, font_size)
+        s_bbox = font_stat.getbbox(val_str)
+        sw = s_bbox[2] - s_bbox[0]
+    sh = s_bbox[3] - s_bbox[1]
 
-    font_num = ImageFont.truetype(FONT_OSWALD, 140) if os.path.exists(FONT_OSWALD) else ImageFont.load_default()
-    font_unit = ImageFont.truetype(FONT_OSWALD, 75) if os.path.exists(FONT_OSWALD) else ImageFont.load_default()
+    # Posisi Persis di Tengah Kotak Bawah Hitam
+    bottom_h = CARD_H - 585
+    stat_x = (CARD_W - sw) // 2
+    stat_y = 585 + (bottom_h - sh) // 2 - s_bbox[1]
+    draw.text((stat_x, stat_y), val_str, fill=(255, 255, 255), font=font_stat)
 
-    # Angka Tinggi Badan Putih Tebal
-    n_box = font_num.getbbox(num_str)
-    nw = n_box[2] - n_box[0]
-    nh = n_box[3] - n_box[1]
-    num_x = (CARD_W - nw) // 2
-    num_y = 660 - n_box[1]
-    draw.text((num_x, num_y), num_str, fill=(255, 255, 255), font=font_num)
-
-    # Teks 'cm' Putih Tepat di Bawah Angka
-    if unit_str:
-        u_box = font_unit.getbbox(unit_str)
-        uw = u_box[2] - u_box[0]
-        unit_x = (CARD_W - uw) // 2
-        unit_y = num_y + nh + 30 - u_box[1]
-        draw.text((unit_x, unit_y), unit_str, fill=(255, 255, 255), font=font_unit)
-
-    # Border frame hitam
+    # Border frame hitam tipis di sekeliling kartu
     draw.rectangle([(0, 0), (CARD_W - 1, CARD_H - 1)], outline=(0, 0, 0), width=1)
     return card
 
