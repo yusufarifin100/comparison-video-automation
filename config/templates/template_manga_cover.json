@@ -1,0 +1,168 @@
+{
+  "template_id": "6abe2013c9e292c751eff877",
+  "template_name": "Manga Cover Black Clover",
+  "category": "manga_cover_tall",
+  "description": "Foto cover komik portrait tinggi (500x711) + 3 baris info detail rilis di bawah (Anton & Bebas Neue)",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "background_color": "#ffffff",
+    "padding_top": 12,
+    "padding_bottom": 12,
+    "card_gap": 12
+  },
+  "card": {
+    "width": 480,
+    "height": 1056,
+    "border_color": "#000000",
+    "border_width": 1
+  },
+  "raw_elements": [
+    {
+      "title": "Background",
+      "type": "shape",
+      "top": 0,
+      "height": null,
+      "color": "#ffffff",
+      "gradient": "rgba(0,0,0,1)",
+      "font": null,
+      "fontSize": null,
+      "values": {
+        "color": "#ffffff",
+        "gradient": "rgba(0,0,0,1)"
+      }
+    },
+    {
+      "title": "Element",
+      "type": "shape",
+      "top": 711,
+      "height": 172,
+      "color": "#000000",
+      "gradient": "rgba(255,255,255, 1)",
+      "font": null,
+      "fontSize": null,
+      "values": {
+        "color": "#000000",
+        "opacity": "100",
+        "gradient": "rgba(255,255,255, 1)",
+        "useOpacity": "false",
+        "repeatingAnimation": "",
+        "repeatDuration": "500",
+        "keyframeAnimation": "{\"durationMs\":9140,\"keyframes\":[]}"
+      }
+    },
+    {
+      "title": "Title Background",
+      "type": "shape",
+      "top": 714,
+      "height": 91,
+      "color": "#009b35",
+      "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+      "font": null,
+      "fontSize": null,
+      "values": {
+        "color": "#009b35",
+        "opacity": "100",
+        "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+        "perItemColor": "false",
+        "borderColor": "#000000",
+        "borderWidth": "1"
+      }
+    },
+    {
+      "title": "Highlight Image",
+      "type": "image",
+      "top": 0,
+      "height": 711,
+      "color": null,
+      "gradient": null,
+      "font": null,
+      "fontSize": null,
+      "values": {
+        "perElement": "true",
+        "animationDuration": "500",
+        "movementAnimation": "rightToLeft",
+        "fit": "",
+        "keyframeAnimation": "{\"durationMs\":9140,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+      }
+    },
+    {
+      "title": "Highlight",
+      "type": "text",
+      "top": 817,
+      "height": 61,
+      "color": "#000000",
+      "gradient": null,
+      "font": "Bebas Neue",
+      "fontSize": "60",
+      "values": {
+        "perElement": "true",
+        "color": "#000000",
+        "fontFamily": "Bebas Neue",
+        "fontSize": "60",
+        "align": "center",
+        "verticalAlign": "middle",
+        "animationDuration": "500",
+        "movementAnimation": "leftToRight",
+        "fit": "true",
+        "lineHeight": "",
+        "opacity": "100",
+        "fontStyle": "",
+        "keyframeAnimation": "{\"durationMs\":9140,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+      }
+    },
+    {
+      "title": "Title",
+      "type": "text",
+      "top": 730,
+      "height": 80,
+      "color": "#000000",
+      "gradient": null,
+      "font": "Anton",
+      "fontSize": "70",
+      "values": {
+        "perElement": "true",
+        "color": "#000000",
+        "fontFamily": "Anton",
+        "align": "center",
+        "verticalAlign": "middle",
+        "fontSize": "70",
+        "animationDuration": "500",
+        "movementAnimation": "leftToRight",
+        "fit": "true",
+        "useTypingAnimation": "false",
+        "borderColor": "#000000",
+        "borderWidth": null,
+        "fontStyle": "",
+        "keyframeAnimation": "{\"durationMs\":9140,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+      }
+    },
+    {
+      "title": "Description",
+      "type": "text",
+      "top": 901,
+      "height": 80,
+      "color": "#ffffff",
+      "gradient": null,
+      "font": "Anton",
+      "fontSize": "60",
+      "values": {
+        "text": "Text",
+        "align": "center",
+        "verticalAlign": "middle",
+        "fontSize": "60",
+        "perElement": "true",
+        "color": "#ffffff",
+        "fontFamily": "Anton",
+        "animationDuration": "500",
+        "movementAnimation": "leftToRight",
+        "fit": "true",
+        "useTypingAnimation": "false",
+        "borderColor": "#000000",
+        "borderWidth": null,
+        "fontStyle": "",
+        "keyframeAnimation": "{\"durationMs\":9140,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+      }
+    }
+  ]
+}

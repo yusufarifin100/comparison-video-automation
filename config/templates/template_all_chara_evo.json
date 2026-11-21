@@ -1,0 +1,21 @@
+{
+  "template_id": "6afb0c45978728d25ed939f6",
+  "template_name": "All Character Evolution (Past vs Present)",
+  "category": "evolution",
+  "description": "Foto masa lalu 500x500 di atas, pita emas font Bebas Neue di tengah, foto masa depan 500x500 di bawah",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "background_color": "#ffffff",
+    "padding_top": 12,
+    "padding_bottom": 12,
+    "card_gap": 12
+  },
+  "card": {
+    "width": 480,
+    "height": 1056,
+    "border_color": "#000000",
+    "border_width": 1
+  },
+  "raw_elements": []
+}

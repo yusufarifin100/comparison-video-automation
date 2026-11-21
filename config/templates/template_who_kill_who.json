@@ -1,0 +1,157 @@
+{
+  "template_id": "6aed009d29543f79d69a2e4f",
+  "template_name": "Who Kill Whom (Killer vs Victim)",
+  "category": "versus_split_banner",
+  "description": "Foto pelaku di atas, pita merah (Killer \ud83d\udd2a) font Oswald, pita hitam (Victim \u26b0) font Oswald, foto korban di bawah",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "background_color": "#ffffff",
+    "padding_top": 12,
+    "padding_bottom": 12,
+    "card_gap": 12
+  },
+  "card": {
+    "width": 480,
+    "height": 1056,
+    "border_color": "#000000",
+    "border_width": 1
+  },
+  "raw_elements": [
+    {
+      "title": "Background",
+      "type": "shape",
+      "top": 0,
+      "height": null,
+      "color": "#ffffff",
+      "gradient": "rgba(0,0,0,1)",
+      "font": null,
+      "fontSize": null,
+      "values": {
+        "color": "#ffffff",
+        "gradient": "rgba(0,0,0,1)"
+      }
+    },
+    {
+      "title": "Highlight Image",
+      "type": "image",
+      "top": 0,
+      "height": 500,
+      "color": null,
+      "gradient": null,
+      "font": null,
+      "fontSize": null,
+      "values": {
+        "perElement": "true",
+        "animationDuration": "500",
+        "movementAnimation": "rightToLeft",
+        "fit": "",
+        "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+      }
+    },
+    {
+      "title": "Highlight Image 2",
+      "type": "image",
+      "top": 600,
+      "height": 500,
+      "color": null,
+      "gradient": null,
+      "font": null,
+      "fontSize": null,
+      "values": {
+        "perElement": "true",
+        "animationDuration": "500",
+        "movementAnimation": "rightToLeft",
+        "fit": "",
+        "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+      }
+    },
+    {
+      "title": "Title Background 2",
+      "type": "shape",
+      "top": 452,
+      "height": 75,
+      "color": "#009b35",
+      "gradient": "rgb(172, 1, 21)",
+      "font": null,
+      "fontSize": null,
+      "values": {
+        "color": "#009b35",
+        "opacity": "100",
+        "gradient": "rgb(172, 1, 21)",
+        "perItemColor": "false",
+        "borderColor": "#ffffff",
+        "borderWidth": "1"
+      }
+    },
+    {
+      "title": "Title Background",
+      "type": "shape",
+      "top": 529,
+      "height": 75,
+      "color": "#009b35",
+      "gradient": "rgb(0, 0, 0)",
+      "font": null,
+      "fontSize": null,
+      "values": {
+        "color": "#009b35",
+        "opacity": "100",
+        "gradient": "rgb(0, 0, 0)",
+        "perItemColor": "false",
+        "borderColor": "#ffffff",
+        "borderWidth": "1"
+      }
+    },
+    {
+      "title": "Highlight",
+      "type": "text",
+      "top": 461,
+      "height": 61,
+      "color": "#ffffff",
+      "gradient": null,
+      "font": "Oswald",
+      "fontSize": "60",
+      "values": {
+        "perElement": "true",
+        "color": "#ffffff",
+        "fontFamily": "Oswald",
+        "fontSize": "60",
+        "align": "center",
+        "verticalAlign": "middle",
+        "animationDuration": "500",
+        "movementAnimation": "leftToRight",
+        "fit": "true",
+        "lineHeight": "",
+        "opacity": "100",
+        "fontStyle": "500",
+        "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+      }
+    },
+    {
+      "title": "Highlight 3",
+      "type": "text",
+      "top": 539,
+      "height": 61,
+      "color": "#ffffff",
+      "gradient": null,
+      "font": "Oswald",
+      "fontSize": "60",
+      "values": {
+        "text": "Text",
+        "align": "center",
+        "verticalAlign": "middle",
+        "fontSize": "60",
+        "perElement": "true",
+        "color": "#ffffff",
+        "fontFamily": "Oswald",
+        "animationDuration": "500",
+        "movementAnimation": "leftToRight",
+        "fit": "true",
+        "lineHeight": "",
+        "opacity": "100",
+        "fontStyle": "500",
+        "keyframeAnimation": "{\"durationMs\":13705,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+      }
+    }
+  ]
+}

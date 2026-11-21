@@ -5,6 +5,7 @@ dan merender video perbandingan dengan template presisi AlienArt ke folder Video
 """
 import os
 import sys
+import re
 import csv
 import json
 import argparse
@@ -63,7 +64,6 @@ def get_image(img_ref, project_images_dir=None, cache_dir=None):
 
     # 2. Cek di dalam folder Images project jika hanya nama file
     if project_images_dir and os.path.exists(project_images_dir):
-        # Cari file di subfolder Images
         for root, _, files in os.walk(project_images_dir):
             if os.path.basename(img_ref) in files:
                 return Image.open(os.path.join(root, os.path.basename(img_ref))).convert("RGB")
@@ -110,7 +110,7 @@ def fit_image_square(src_img, size=480):
         return resized.crop((0, y0, size, y0 + size))
 
 # ==========================================================
-# RENDER KARTU TIPE 1: EVOLUTION (PAST VS PRESENT)
+# 1. RENDER KARTU: EVOLUTION (ALL CHARA EVO)
 # ==========================================================
 def render_card_evolution(char_data, project_images_dir):
     card = Image.new("RGB", (CARD_W, CARD_H), (0, 0, 0))
@@ -150,15 +150,88 @@ def render_card_evolution(char_data, project_images_dir):
     name_y = 480 + (96 - th) // 2 - bbox[1]
     draw.text((name_x, name_y), name, fill=(0, 0, 0), font=font)
 
-    # Border frame
     draw.rectangle([(0, 0), (CARD_W - 1, CARD_H - 1)], outline=(0, 0, 0), width=1)
     return card
 
 # ==========================================================
-# RENDER KARTU TIPE 3: SINGLE IMAGE + MULTI-STATS / HEIGHT
+# 2. RENDER KARTU: HEIGHT COMPARISON (TEMPLATE_HEIGHT.JSON)
+# Persis AlienArt: Foto Atas + Pita Emas Anton + Kotak Bawah Hitam Pekat
+# Angka Besar Putih (Oswald 140) + "cm" Putih (Oswald 75)
 # ==========================================================
-def render_card_stats(char_data, project_images_dir):
-    card = Image.new("RGB", (CARD_W, CARD_H), (255, 255, 255))
+def render_card_height(char_data, project_images_dir):
+    card = Image.new("RGB", (CARD_W, CARD_H), (0, 0, 0)) # Background Kartu Hitam Pekat
+    draw = ImageDraw.Draw(card)
+
+    # 1. Top Image (480x480)
+    img = get_image(char_data.get("img_main"), project_images_dir)
+    card.paste(fit_image_square(img, 480), (0, 0))
+
+    # 2. Middle Banner (Gold Shine 480x105)
+    banner = create_gold_banner(CARD_W, 105)
+    card.paste(banner, (0, 480))
+
+    # Name in Anton
+    font_name = ImageFont.truetype(FONT_ANTON, 56) if os.path.exists(FONT_ANTON) else ImageFont.load_default()
+    name = str(char_data.get("name", "UNKNOWN")).strip().upper()
+    bbox = font_name.getbbox(name)
+    tw = bbox[2] - bbox[0]
+    max_w = CARD_W - 24
+    if tw > max_w:
+        font_name = ImageFont.truetype(FONT_ANTON, max(24, int(56 * (max_w / tw))))
+        bbox = font_name.getbbox(name)
+        tw = bbox[2] - bbox[0]
+    th = bbox[3] - bbox[1]
+    draw.text(((CARD_W - tw) // 2, 480 + (105 - th) // 2 - bbox[1]), name, fill=(0, 0, 0), font=font_name)
+
+    # Garis pemisah 1px hitam
+    draw.line([(0, 480), (CARD_W, 480)], fill=(0, 0, 0), width=1)
+    draw.line([(0, 480 + 105), (CARD_W, 480 + 105)], fill=(0, 0, 0), width=1)
+
+    # 3. Bottom Area: Hitam Pekat (y: 585 to 1056)
+    draw.rectangle([(0, 585), (CARD_W, CARD_H)], fill=(0, 0, 0))
+
+    # Parse nilai tinggi badan (misal: "174 cm" -> num: "174", unit: "cm")
+    raw_val = str(char_data.get("val", "0 cm")).strip()
+    m = re.search(r'(\d+)\s*(.*)', raw_val)
+    if m:
+        num_str = m.group(1)
+        unit_str = m.group(2) if m.group(2) else "cm"
+    else:
+        num_str = raw_val
+        unit_str = ""
+
+    font_num = ImageFont.truetype(FONT_OSWALD, 140) if os.path.exists(FONT_OSWALD) else ImageFont.load_default()
+    font_unit = ImageFont.truetype(FONT_OSWALD, 75) if os.path.exists(FONT_OSWALD) else ImageFont.load_default()
+
+    # Angka Tinggi Badan Putih Tebal
+    n_box = font_num.getbbox(num_str)
+    nw = n_box[2] - n_box[0]
+    nh = n_box[3] - n_box[1]
+    num_x = (CARD_W - nw) // 2
+    num_y = 660 - n_box[1]
+    draw.text((num_x, num_y), num_str, fill=(255, 255, 255), font=font_num)
+
+    # Teks 'cm' Putih Tepat di Bawah Angka
+    if unit_str:
+        u_box = font_unit.getbbox(unit_str)
+        uw = u_box[2] - u_box[0]
+        unit_x = (CARD_W - uw) // 2
+        unit_y = num_y + nh + 30 - u_box[1]
+        draw.text((unit_x, unit_y), unit_str, fill=(255, 255, 255), font=font_unit)
+
+    # Border frame hitam
+    draw.rectangle([(0, 0), (CARD_W - 1, CARD_H - 1)], outline=(0, 0, 0), width=1)
+    return card
+
+# ==========================================================
+# 3. RENDER KARTU: HIERARCHY / BIRTHDAY / GENERAL STATS
+# ==========================================================
+def render_card_general_stats(char_data, project_images_dir, is_dark=False):
+    bg_color = (0, 0, 0) if is_dark else (255, 255, 255)
+    text_color = (255, 255, 255) if is_dark else (0, 0, 0)
+    lbl_color = (180, 180, 180) if is_dark else (110, 110, 120)
+
+    card = Image.new("RGB", (CARD_W, CARD_H), bg_color)
     draw = ImageDraw.Draw(card)
 
     img = get_image(char_data.get("img_main"), project_images_dir)
@@ -179,7 +252,6 @@ def render_card_stats(char_data, project_images_dir):
     th = bbox[3] - bbox[1]
     draw.text(((CARD_W - tw) // 2, 480 + (105 - th) // 2 - bbox[1]), name, fill=(0, 0, 0), font=font_name)
 
-    # Area Bawah (Stats)
     stats_lines = char_data.get("stats", [])
     font_lbl = ImageFont.truetype(FONT_OSWALD, 32) if os.path.exists(FONT_OSWALD) else ImageFont.load_default()
     font_val = ImageFont.truetype(FONT_ANTON, 40) if os.path.exists(FONT_ANTON) else ImageFont.load_default()
@@ -189,27 +261,26 @@ def render_card_stats(char_data, project_images_dir):
     for idx, (label, val) in enumerate(stats_lines):
         curr_y = start_y + idx * line_spacing
         l_box = font_lbl.getbbox(label.upper())
-        draw.text(((CARD_W - (l_box[2] - l_box[0])) // 2, curr_y), label.upper(), fill=(110, 110, 120), font=font_lbl)
+        draw.text(((CARD_W - (l_box[2] - l_box[0])) // 2, curr_y), label.upper(), fill=lbl_color, font=font_lbl)
 
         v_box = font_val.getbbox(str(val).upper())
-        draw.text(((CARD_W - (v_box[2] - v_box[0])) // 2, curr_y + 40), str(val).upper(), fill=(0, 0, 0), font=font_val)
+        draw.text(((CARD_W - (v_box[2] - v_box[0])) // 2, curr_y + 40), str(val).upper(), fill=text_color, font=font_val)
 
         if idx < len(stats_lines) - 1:
-            draw.line([(40, curr_y + 100), (CARD_W - 40, curr_y + 100)], fill=(230, 230, 235), width=1)
+            div_col = (50, 50, 50) if is_dark else (230, 230, 235)
+            draw.line([(40, curr_y + 100), (CARD_W - 40, curr_y + 100)], fill=div_col, width=1)
 
     draw.rectangle([(0, 0), (CARD_W - 1, CARD_H - 1)], outline=(0, 0, 0), width=1)
     return card
 
 # ==========================================================
-# PARSER CSV OTOMATIS
+# PARSER CSV & AUTO DETECTOR
 # ==========================================================
 def parse_csv_data(csv_file_path):
-    """Membaca CSV AlienArt dan mendeteksi tipe template secara otomatis"""
     rows = []
     with open(csv_file_path, "r", encoding="utf-8-sig") as f:
         reader = csv.reader(f, delimiter=";")
         headers = [h.strip() for h in next(reader, [])]
-
         for r in reader:
             if not r or not any(r):
                 continue
@@ -217,8 +288,24 @@ def parse_csv_data(csv_file_path):
 
     print(f"📋 Ditemukan {len(rows)} baris data. Header: {headers}")
 
-    # Deteksi Archetype
-    # 1. Evolution (Highlight, Highlight Image, Highlight Image 1)
+    filename_lower = os.path.basename(csv_file_path).lower()
+
+    # 1. Height Comparison
+    if "height" in filename_lower or ("Element" in headers and any("cm" in str(r) for r in rows[:5])):
+        template_type = "height"
+        data_list = []
+        name_idx = headers.index("Title") if "Title" in headers else 0
+        img_idx = headers.index("Highlight Image") if "Highlight Image" in headers else 0
+        stat_idx = headers.index("Element") if "Element" in headers else (headers.index("Description") if "Description" in headers else 1)
+        for r in rows:
+            data_list.append({
+                "name": r[name_idx] if len(r) > name_idx else "",
+                "img_main": r[img_idx] if len(r) > img_idx else "",
+                "val": r[stat_idx] if len(r) > stat_idx else ""
+            })
+        return template_type, data_list
+
+    # 2. Evolution (Highlight, Highlight Image, Highlight Image 1)
     if "Highlight Image 1" in headers and "Highlight" in headers and "Highlight 3" not in headers:
         template_type = "evolution"
         data_list = []
@@ -233,29 +320,27 @@ def parse_csv_data(csv_file_path):
             })
         return template_type, data_list
 
-    # 2. Stats / Height (Highlight Image, Title, Element)
-    if "Title" in headers and ("Element" in headers or "Description" in headers):
-        template_type = "stats"
-        data_list = []
-        name_idx = headers.index("Title")
-        img_idx = headers.index("Highlight Image") if "Highlight Image" in headers else 0
-        stat_col = "Element" if "Element" in headers else "Description"
-        stat_idx = headers.index(stat_col)
-        for r in rows:
-            data_list.append({
-                "name": r[name_idx] if len(r) > name_idx else "",
-                "img_main": r[img_idx] if len(r) > img_idx else "",
-                "stats": [(stat_col, r[stat_idx] if len(r) > stat_idx else "")]
-            })
-        return template_type, data_list
-
-    # Default fallback
-    template_type = "evolution"
-    data_list = [{"name": r[0], "img_top": r[1] if len(r) > 1 else "", "img_bottom": r[2] if len(r) > 2 else ""} for r in rows]
+    # 3. Hierarchy / Birthday / General
+    template_type = "general_stats"
+    data_list = []
+    name_idx = headers.index("Title") if "Title" in headers else 0
+    img_idx = headers.index("Highlight Image") if "Highlight Image" in headers else 0
+    stat_cols = [h for h in headers if h not in ["Title", "Highlight Image", "Highlight"]]
+    for r in rows:
+        stats_data = []
+        for sc in stat_cols:
+            c_idx = headers.index(sc)
+            if len(r) > c_idx and r[c_idx]:
+                stats_data.append((sc, r[c_idx]))
+        data_list.append({
+            "name": r[name_idx] if len(r) > name_idx else "",
+            "img_main": r[img_idx] if len(r) > img_idx else "",
+            "stats": stats_data
+        })
     return template_type, data_list
 
 # ==========================================================
-# RENDER VIDEO ENGINE
+# RENDER PIPELINE
 # ==========================================================
 def render_project_video(csv_name, series_name="Tokyo Revenger", limit=None, scroll_duration=None, preview_only=False):
     series_dir = os.path.join(WORKSPACE_ROOT, series_name)
@@ -266,7 +351,6 @@ def render_project_video(csv_name, series_name="Tokyo Revenger", limit=None, scr
 
     csv_path = os.path.join(data_dir, csv_name) if not os.path.isabs(csv_name) else csv_name
     if not os.path.exists(csv_path):
-        # Cari file dengan nama mirip
         found = [f for f in os.listdir(data_dir) if csv_name.lower() in f.lower()] if os.path.exists(data_dir) else []
         if found:
             csv_path = os.path.join(data_dir, found[0])
@@ -280,19 +364,19 @@ def render_project_video(csv_name, series_name="Tokyo Revenger", limit=None, scr
         data_list = data_list[:limit]
         print(f"🔹 Dibatasi untuk {limit} karakter pertama.")
 
-    print(f"🎨 Template Terdeteksi: {template_type.upper()} ({len(data_list)} karakter)")
+    print(f"🎨 Template Terpilih: {template_type.upper()} ({len(data_list)} karakter)")
 
-    # Render kolom-kolom kartu
     rendered_cards = []
     for idx, item in enumerate(data_list):
         print(f"  Rendering [{idx+1}/{len(data_list)}]: {item.get('name')}")
-        if template_type == "stats":
-            c = render_card_stats(item, images_dir)
-        else:
+        if template_type == "height":
+            c = render_card_height(item, images_dir)
+        elif template_type == "evolution":
             c = render_card_evolution(item, images_dir)
+        else:
+            c = render_card_general_stats(item, images_dir)
         rendered_cards.append(c)
 
-    # Susun panorama dengan white padding
     n = len(rendered_cards)
     total_w = PAD_LEFT + (n - 1) * STEP_W + CARD_W + PAD_RIGHT
     panorama = Image.new("RGB", (total_w, CANVAS_H), (255, 255, 255))
@@ -310,7 +394,6 @@ def render_project_video(csv_name, series_name="Tokyo Revenger", limit=None, scr
     if preview_only:
         return preview_output
 
-    # Render Video MP4
     if not scroll_duration:
         scroll_duration = max(12.0, len(rendered_cards) * 2.2)
 
@@ -352,7 +435,7 @@ def render_project_video(csv_name, series_name="Tokyo Revenger", limit=None, scr
         threads=4
     )
 
-    print(f"✅ Video selesai dirender ke folder target: {output_video_path}")
+    print(f"✅ Video selesai dirender ke: {output_video_path}")
     return output_video_path
 
 if __name__ == "__main__":

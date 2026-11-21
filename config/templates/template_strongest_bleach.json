@@ -1,0 +1,199 @@
+{
+  "template_id": "6ad9c0211107b1191fd52a47",
+  "template_name": "Strongest Bleach All",
+  "category": "ranking_tier_dark",
+  "description": "Foto atas 500x500, pita emas Anton, kotak HITAM pekat bawah dengan teks ranking putih font Oswald",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "background_color": "#ffffff",
+    "padding_top": 12,
+    "padding_bottom": 12,
+    "card_gap": 12
+  },
+  "card": {
+    "width": 480,
+    "height": 1056,
+    "border_color": "#000000",
+    "border_width": 1
+  },
+  "raw_elements": [
+    {
+      "title": "Background",
+      "type": "shape",
+      "top": 0,
+      "height": null,
+      "color": "#ffffff",
+      "gradient": "rgba(0,0,0,1)",
+      "font": null,
+      "fontSize": null,
+      "values": {
+        "color": "#ffffff",
+        "gradient": "rgba(0,0,0,1)"
+      }
+    },
+    {
+      "title": "Element",
+      "type": "shape",
+      "top": 565,
+      "height": 491,
+      "color": "#000000",
+      "gradient": "rgb(0, 0, 0)",
+      "font": null,
+      "fontSize": null,
+      "values": {
+        "color": "#000000",
+        "opacity": "100",
+        "gradient": "rgb(0, 0, 0)",
+        "useOpacity": "false",
+        "repeatingAnimation": "",
+        "repeatDuration": "500",
+        "keyframeAnimation": "{\"durationMs\":7202,\"keyframes\":[]}",
+        "borderColor": null,
+        "borderWidth": null
+      }
+    },
+    {
+      "title": "Title Background",
+      "type": "shape",
+      "top": 569,
+      "height": 103,
+      "color": "#009b35",
+      "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+      "font": null,
+      "fontSize": null,
+      "values": {
+        "color": "#009b35",
+        "opacity": "100",
+        "gradient": "linear-gradient(90deg, rgba(172,155,1,1) 0%, RGB(255, 255, 4) 48%, rgba(215,194,1,1) 100%)",
+        "perItemColor": "false",
+        "borderColor": "#000000",
+        "borderWidth": "1"
+      }
+    },
+    {
+      "title": "Highlight Image",
+      "type": "image",
+      "top": 0,
+      "height": 500,
+      "color": null,
+      "gradient": null,
+      "font": null,
+      "fontSize": null,
+      "values": {
+        "perElement": "true",
+        "animationDuration": "500",
+        "movementAnimation": "rightToLeft",
+        "fit": "",
+        "keyframeAnimation": "{\"durationMs\":6438,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:right:0\",\"property\":\"position\",\"timeMs\":0,\"x\":800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:right:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+      }
+    },
+    {
+      "title": "Highlight",
+      "type": "text",
+      "top": 509,
+      "height": 61,
+      "color": "#ffffff",
+      "gradient": null,
+      "font": "Bebas Neue",
+      "fontSize": "60",
+      "values": {
+        "perElement": "true",
+        "color": "#ffffff",
+        "fontFamily": "Bebas Neue",
+        "fontSize": "60",
+        "align": "center",
+        "verticalAlign": "middle",
+        "animationDuration": "500",
+        "movementAnimation": "leftToRight",
+        "fit": "true",
+        "lineHeight": "",
+        "opacity": "100",
+        "fontStyle": ""
+      }
+    },
+    {
+      "title": "Title",
+      "type": "text",
+      "top": 594,
+      "height": 80,
+      "color": "#000000",
+      "gradient": null,
+      "font": "Anton",
+      "fontSize": "80",
+      "values": {
+        "perElement": "true",
+        "color": "#000000",
+        "fontFamily": "Anton",
+        "align": "center",
+        "verticalAlign": "middle",
+        "fontSize": "80",
+        "animationDuration": "500",
+        "movementAnimation": "leftToRight",
+        "fit": "true",
+        "useTypingAnimation": "false",
+        "borderColor": "#000000",
+        "borderWidth": null,
+        "fontStyle": "",
+        "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:left:0\",\"property\":\"position\",\"timeMs\":0,\"x\":-800,\"y\":0},{\"id\":\"__presetTrack__:slideIn:slideIn:left:1\",\"property\":\"position\",\"timeMs\":500,\"x\":0,\"y\":0}],\"trackEasing\":{\"slideIn\":\"easeOut\"}}"
+      }
+    },
+    {
+      "title": "Description",
+      "type": "text",
+      "top": 0,
+      "height": 222,
+      "color": "#ffffff",
+      "gradient": null,
+      "font": "Oswald",
+      "fontSize": "150",
+      "values": {
+        "perElement": "true",
+        "fontSize": "150",
+        "color": "#ffffff",
+        "opacity": "100",
+        "align": "center",
+        "verticalAlign": "middle",
+        "movementAnimation": "bottomToTop",
+        "fontFamily": "Oswald",
+        "fontStyle": "400",
+        "useTypingAnimation": "false",
+        "borderColor": "#000000",
+        "borderWidth": "1",
+        "shadowOffsetX": "2",
+        "shadowOffsetY": "2",
+        "animationDuration": "500",
+        "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:0\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":800},{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:1\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:0\",\"timeMs\":0,\"property\":\"opacity\",\"value\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:1\",\"timeMs\":1000,\"property\":\"opacity\",\"value\":1}],\"trackEasing\":{\"slideIn\":\"easeOut\",\"fadeIn\":\"easeOut\"}}"
+      }
+    },
+    {
+      "title": "Description 1",
+      "type": "text",
+      "top": 0,
+      "height": 184,
+      "color": "#ffffff",
+      "gradient": null,
+      "font": "Oswald",
+      "fontSize": "80",
+      "values": {
+        "text": "rank",
+        "align": "center",
+        "verticalAlign": "middle",
+        "fontSize": "80",
+        "perElement": "false",
+        "color": "#ffffff",
+        "opacity": "100",
+        "movementAnimation": "bottomToTop",
+        "fontFamily": "Oswald",
+        "fontStyle": "400",
+        "useTypingAnimation": "false",
+        "borderColor": "#000000",
+        "borderWidth": "1",
+        "shadowOffsetX": "2",
+        "shadowOffsetY": "2",
+        "animationDuration": "500",
+        "keyframeAnimation": "{\"durationMs\":7474,\"keyframes\":[{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:0\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":800},{\"id\":\"__presetTrack__:slideIn:slideIn:bottom:1\",\"timeMs\":0,\"property\":\"position\",\"x\":0,\"y\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:0\",\"timeMs\":0,\"property\":\"opacity\",\"value\":0},{\"id\":\"__presetTrack__:fadeIn:fadeIn:1\",\"timeMs\":1000,\"property\":\"opacity\",\"value\":1}],\"trackEasing\":{\"slideIn\":\"easeOut\",\"fadeIn\":\"easeOut\"}}"
+      }
+    }
+  ]
+}

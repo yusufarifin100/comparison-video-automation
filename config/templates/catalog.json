@@ -1,0 +1,68 @@
+{
+  "template_height.json": {
+    "file": "config/templates/template_height.json",
+    "name": "Height Comparison (Black Clover / Tokyo Revengers)",
+    "type": "height_stat",
+    "description": "Foto atas 500x500, pita emas font Anton, area bawah HITAM PEKAT dengan angka tinggi badan BESAR PUTIH font Oswald + teks 'cm'"
+  },
+  "template_all_chara_evo.json": {
+    "file": "config/templates/template_all_chara_evo.json",
+    "name": "All Character Evolution (Past vs Present)",
+    "type": "evolution",
+    "description": "Foto masa lalu 500x500 di atas, pita emas font Bebas Neue di tengah, foto masa depan 500x500 di bawah"
+  },
+  "template_who_kill_who.json": {
+    "file": "config/templates/template_who_kill_who.json",
+    "name": "Who Kill Whom (Killer vs Victim)",
+    "type": "versus_split_banner",
+    "description": "Foto pelaku di atas, pita merah (Killer \ud83d\udd2a) font Oswald, pita hitam (Victim \u26b0) font Oswald, foto korban di bawah"
+  },
+  "template_who_love_who.json": {
+    "file": "config/templates/template_who_love_who.json",
+    "name": "Who Love Who (Romance / Relationship)",
+    "type": "versus_split_banner",
+    "description": "Foto pasangan 1 di atas, 2 pita gradasi soft pink/ungu font Bebas Neue, foto pasangan 2 di bawah"
+  },
+  "template_battle_s4.json": {
+    "file": "config/templates/template_battle_s4.json",
+    "name": "Battle S4 Until End (Fight vs Fight)",
+    "type": "versus_battle",
+    "description": "2 petarung atas & bawah dengan pita emas vs perak di tengah + header & footer status bar hitam"
+  },
+  "template_hierarchy.json": {
+    "file": "config/templates/template_hierarchy.json",
+    "name": "Tokyo Revenger Hierarchy Last Series",
+    "type": "hierarchy",
+    "description": "Foto atas 500x500, pita emas font Anton, kotak putih bawah berisi multi-line jabatan/divisi geng font Oswald"
+  },
+  "template_birthday.json": {
+    "file": "config/templates/template_birthday.json",
+    "name": "Birthday Tokyo Revenger",
+    "type": "birthday",
+    "description": "Foto atas 500x500, pita emas font Anton, kotak putih bawah berisi tanggal lahir karakter font Oswald"
+  },
+  "template_strongest_tokrev.json": {
+    "file": "config/templates/template_strongest_tokrev.json",
+    "name": "Strongest Tokyo Revenger",
+    "type": "ranking_tier",
+    "description": "Foto atas 500x500, nomor tier Bebas Neue, pita nama emas Anton, kotak putih power ranking font Oswald"
+  },
+  "template_strongest_bleach.json": {
+    "file": "config/templates/template_strongest_bleach.json",
+    "name": "Strongest Bleach All",
+    "type": "ranking_tier_dark",
+    "description": "Foto atas 500x500, pita emas Anton, kotak HITAM pekat bawah dengan teks ranking putih font Oswald"
+  },
+  "template_evo_nacht.json": {
+    "file": "config/templates/template_evo_nacht.json",
+    "name": "Evo Nacht Black Clover",
+    "type": "form_evolution",
+    "description": "Foto wujud 500x500 di atas, pita emas Anton, kotak keterangan wujud iblis/mode di bawah font Oswald"
+  },
+  "template_manga_cover.json": {
+    "file": "config/templates/template_manga_cover.json",
+    "name": "Manga Cover Black Clover",
+    "type": "manga_cover_tall",
+    "description": "Foto cover komik portrait tinggi (500x711) + 3 baris info detail rilis di bawah (Anton & Bebas Neue)"
+  }
+}
