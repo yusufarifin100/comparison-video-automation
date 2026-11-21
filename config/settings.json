@@ -1,27 +1,21 @@
 {
   "project_name": "Comparison Video Automation",
+  "workspace": {
+    "root_dir": "E:/Youtube Project/RankingNoSekai",
+    "active_series": "Tokyo Revenger"
+  },
   "video": {
     "resolution": [1920, 1080],
     "fps": 30,
-    "duration_per_character": 3.5,
-    "transition_duration": 0.5,
-    "layout_mode": "top_bottom_comparison",
     "theme": {
-      "background_color": "#0d0e15",
-      "divider_color": "#ff3366",
-      "text_font": "Arial",
-      "font_size_name": 48,
-      "font_size_info": 32,
-      "text_color": "#ffffff"
+      "background_color": "#ffffff",
+      "card_padding": 12,
+      "card_gap": 12
     }
-  },
-  "wikia": {
-    "default_series": "tokyo-revengers",
-    "api_url": "https://tokyorevengers.fandom.com/api.php"
   },
   "youtube": {
     "privacy_status": "private",
     "category_id": "24",
-    "default_tags": ["anime", "tokyo revengers", "character evolution", "past vs present", "comparison"]
+    "default_tags": ["anime", "tokyo revengers", "comparison", "ranking"]
   }
 }
